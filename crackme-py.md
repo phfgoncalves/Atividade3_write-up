@@ -20,9 +20,9 @@ Como não há enunciado na questão, vamos partir direto para a análise do cód
 [![image.png](https://i.postimg.cc/Gm1DTJyS/image.png)](https://postimg.cc/QH0CR7Sp)
 
 Lendo os comentários do código, temos a tradução:
-> " # Esconder esse número realmente importante em um pedaço obscuro de código é brilhante!
->  # E está criptografado!
->  # Queremos que nosso maior cliente saiba que suas informações estão seguras conosco. "
+> " Esconder esse número realmente importante em um pedaço obscuro de código é brilhante!
+>   E está criptografado!
+>   Queremos que nosso maior cliente saiba que suas informações estão seguras conosco. "
 
 Ou seja, há um número escondido no código, e este número está criptografado. Já obtemos uma informação importante sobre a questão.
 
@@ -30,10 +30,10 @@ Prosseguindo com a análise, temos a declaração bezos_cc_secret = "24256>JL`>0
 agora o valor dessa variável é essa string, provavelmente criptografa, mas ainda não sabemos qual criptografia foi utilizada.
 
 Temos então a função decode_secret (decodificar segredo), cujo comentário é:
-" """ROT47 decode
-
-    NOTE: encode and decode are the same operation in the ROT cipher family.
-    """ "
+> " """ROT47 decode
+>
+>    NOTE: encode and decode are the same operation in the ROT cipher family.
+>    """ "
 Agora sabemos que foi utilizado ROT47 para criptografar o segredo que vimos anteriormente.
 
 Seguindo com a análise do código, temos a função choose_greatest, que apenas analisa 2 valores de entrada do usuário e compara qual é maior.
