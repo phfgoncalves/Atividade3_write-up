@@ -34,6 +34,7 @@ Temos então a função decode_secret (decodificar segredo), cujo comentário é
 >
 >    NOTE: encode and decode are the same operation in the ROT cipher family.
 >    """ "
+
 Agora sabemos que foi utilizado ROT47 para criptografar o segredo que vimos anteriormente.
 
 Seguindo com a análise do código, temos a função choose_greatest, que apenas analisa 2 valores de entrada do usuário e compara qual é maior.
