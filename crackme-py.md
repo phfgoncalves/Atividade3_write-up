@@ -20,9 +20,9 @@ Como não há enunciado na questão, vamos partir direto para a análise do cód
 [![image.png](https://i.postimg.cc/Gm1DTJyS/image.png)](https://postimg.cc/QH0CR7Sp)
 
 Lendo os comentários do código, temos a tradução:
-" # Esconder esse número realmente importante em um pedaço obscuro de código é brilhante!
-  # E está criptografado!
-  # Queremos que nosso maior cliente saiba que suas informações estão seguras conosco. "
+> " # Esconder esse número realmente importante em um pedaço obscuro de código é brilhante!
+>  # E está criptografado!
+>  # Queremos que nosso maior cliente saiba que suas informações estão seguras conosco. "
 
 Ou seja, há um número escondido no código, e este número está criptografado. Já obtemos uma informação importante sobre a questão.
 
